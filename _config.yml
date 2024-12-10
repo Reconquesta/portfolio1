@@ -1,0 +1,26 @@
+title: My Jekyll Site # Replace with the title of your site
+description: A simple description of my site. # A brief description of your site
+baseurl: "" # The base URL of your site (leave empty if in root)
+url: "https://yourusername.github.io" # The URL of your GitHub Pages site
+theme: jekyll-theme-minimal # You can change the theme as needed
+
+# Optional settings
+author: Your Name # Add your name or the site author
+email: your-email@example.com # Your email address
+github_username: yourusername # Your GitHub username
+twitter_username: yourtwitterusername # Your Twitter username
+plugins: # List any plugins you want to use (if any)
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  
+# Social media links
+social:
+  twitter: https://twitter.com/yourtwitterusername
+  github: https://github.com/yourusername
+
+# Exclude specific files or directories (if you have any)
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
